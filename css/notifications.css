@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap');
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  backdrop-filter: blur(5px); /* Blur background */
+  z-index: 99999;
+}
+
+.modal-content {
+  background-color: #23262B;
+  margin: 20% auto; /* Centered vertically and horizontally */
+  padding: 20px;
+  width: 80%; /* Default width */
+  max-width: 400px; /* Limit width for larger screens */
+  height: auto; /* Let content determine height */
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box; /* Include padding and border in width and height */
+}
+
+.success-message {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 1000;
+  font-size: 18px; /* Slightly smaller font for better fit on small screens */
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+#closeNotifi {
+  color: white;
+  background-size: 100%;
+  font-size: 20px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-position: center;
+  background-image: url("../images/assets/backgroundpattern4.webp");
+  font-family: "DM Sans", sans-serif;
+  font-weight: 1000;
+  text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 600px) {
+  .modal-content {
+    margin: 80% auto; /* Centered vertically and horizontally for mobile */
+    width: 90%; /* Almost full width on mobile */
+    max-width: 300px; /* Limit maximum width */
+  }
+
+  .success-message {
+    font-size: 16px; /* Smaller font size for readability */
+  }
+
+  #closeNotifi {
+    font-size: 16px; /* Smaller font size for buttons */
+    padding: 10px 15px; /* Adjust padding for better fit on small screens */
+  }
+}

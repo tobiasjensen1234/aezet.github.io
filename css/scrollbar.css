@@ -1,0 +1,20 @@
+/* Til WebKit browsere (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Scrollbar baggrund (sort) */
+::-webkit-scrollbar-track {
+    background: #101319; /* Sort baggrund */
+}
+
+/* Scrollbar thumb (håndtaget) */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #fdcd50, #fb7f8d);
+    border-radius: 6px;
+}
+
+/* Scrollbar ved hover */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #fb7f8d, #fdcd50);
+}

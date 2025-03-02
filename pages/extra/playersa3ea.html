@@ -1,0 +1,54 @@
+
+<style>
+    /* body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        padding: 20px;
+        margin: 0;
+        height: 100vh;
+    } */
+    .playerStatus {
+        position: fixed;
+        bottom: 50px;
+        /* Afstand til bunden */
+        right: 20px;
+        /* Afstand til højre */
+        background: #23262B;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 500;
+    }
+
+    .playerStatus h1 {
+        margin: 0;
+        font-size: 20px;
+        color: white;
+        font-family: "DM Sans", sans-serif;
+    }
+
+    .playerStatus p {
+        margin: 10px 0;
+        font-size: 17px;
+        color: white;
+        font-family: "DM Sans", sans-serif;
+    }
+
+    .gradient {
+        background: -webkit-linear-gradient(1.5turn, #fb7f8d, #fdcd50);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 800;
+    }
+</style>
+
+
+<div class="playerStatus">
+    <h1>Aktive Spillere</h1>
+    <p>Spillere online: <span class="gradient">1</span> / <span class="gradient">128</span></p>
+</div>

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap');
+
+.footerContainer {
+    margin-top: 70px;
+    background: #101319;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.footerTitle {
+    font-size: 20px;
+    background: -webkit-linear-gradient(1.2turn, #fdcd50, #fb7f8d);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+    width: 190px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 1000;
+}
+
+.footerDescription {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a2a2a2;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 1000;
+}
+
+.footerCopyrightText {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 1000;
+    font-size: 17px;
+    text-align: center;
+    
+}
+
+.discordJoin {
+    filter: saturate(0) brightness(10);
+    height: 20px;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.developersContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footerCopyrightText {
+    user-select: none;
+}
+
+@media only screen and (max-width: 600px) {
+.footerDescription {
+    max-width: 90%;
+}
+    
+}
